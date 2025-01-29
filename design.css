@@ -1,0 +1,12 @@
+body{
+    background-color: 
+}
+.anon{
+    border:4px solid rgb(22, 4, 4);
+    box-shadow: 2px;
+    border-image: round;
+}
+.flower{
+    border: 2px solid white;
+    background-color: rgb(142, 40, 45);
+}

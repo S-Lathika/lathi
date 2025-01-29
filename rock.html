@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rock.css">
+</head> 
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissor Game</h1>
+        <p>choose your Choice</p>
+        
+        <p id="result">result</p>
+        <button class="btn" onclick="play(rock)">💎stone</button>
+        <button class="btn" onclick="play(rock)">📜paper</button>
+        <button class="btn" onclick="play(rock)">✂️Scissor</button>
+        <script>
+            const arr=["Rock","Paper","scissor"]
+            const computerChoice=arr[Math.floor(Math.random()*arr.length-1)]
+            function play(userChoice){
+                let result=computerChoice===userChoice?"It Draw":
+            }
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    background-color: #9fdb13;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(149, 25, 25, 0.1);
+    width: 300px;
+}
+.submit{
+    background-color: rgb(221, 106, 134);
+}
